@@ -7,22 +7,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilo/estilo.css">
+    <link rel="stylesheet" href="../estilo/estilobs.css">
     <title>Centro Emergencas</title>
 </head>
 <body class="i_body">
     <div class="e_grid">
-        <header class="e_cabecera em_header">
-            <img class="i_cabecera_img" src="../img/logoemer.png" alt="Logo">
-            <nav class="i_cabecera_nav">
-                <ul class="i_cabecera_nav_ul">
-                    <li><a class="i_nav" href="../index.html">INICIO</a></li>
-                    <li><a class="i_nav" href="#">ESPECIALISTAS</a></li>
-                    <li><a class="i_nav" href="nosotros.html">NOSOTROS</a></li>
-                    <li><a class="i_nav" href="socios.html">SOCIOS</a></li>
-                    <li><a class="i_nav" href="consultas.html">CONSULTAS</a></li>
-                </ul>
-            </nav>
+        <header class="s_cabecera sm_cabecera">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid d-flex justify-content-evenly">
+                  <a class="navbar-brand i_logo" href="#"><img src="../img/logoemer.png" alt="Logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">ESPECIALISTAS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="socios.html">SOCIOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="consultas.html">CONSULTAS</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main class="e_prin em_prin">
             <div class="e_prin_d">
@@ -51,11 +68,13 @@
                     <ul class="e_space">Psicología: Lic. Gilardneghi/ Lic. Acuña</ul>
                     <ul class="e_space">Estudios Cardiológicos: Dr. Beigelman</ul>
                 </ol>
-                <img class="e_prin_img" src="../img/doctor.jpg" alt="doctor">
+                <img class="e_prin_img  d-none d-lg-block d-xl-block d-xxl-block" src="../img/doctor.jpg" alt="doctor">
             </div>  
+            <img class="e_imgmas d-block d-md-none d-xl-none d-xxl-none" src="../img/doctor.jpg" alt="doctor">
         </section>
+
         <section class="e_sec2 em_sec2">
-            <div>
+            <div class="d-none d-xl-block d-xxl-block">
                 <h2 class="e_sec2_h2">Horarios</h2>
                 <table class="e_table">
                     <tr class="e_sec3_tr">
@@ -175,6 +194,7 @@
                 </table>
             </div>
         </section>
+        <br>
         <footer class="e_pie em_pie">
             <div class="i_info">
                 <p class="i_pie_p">Teléfono: 0220 4776040/7030</p>
