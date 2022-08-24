@@ -1,0 +1,48 @@
+@media screen and (max-width:800px) { 
+    .i_logo{
+        width: 40%;
+    }
+    .i_prin_h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        line-height: 200%;
+        text-align: center;
+        font-size: 20px;
+        color: #2B2D42;
+    }
+    .i_imgc{
+        height: auto;
+    }
+    .mm_mapa{
+         height: 250px;
+         width: 250px;
+    }
+    .i_sec3{
+        display: flex;
+        flex-direction: column;
+    }   
+    .i_sec_div{
+        width: 80%;
+        height: 150px;
+        padding: 1%;
+    }
+    .i_secsec{
+        font-size: 24px;
+    }
+    .n_main_h1{
+        font-size: 30px;
+    }
+    .n_main_p1{
+        font-size: 24px;
+    }
+    .n_section_vid{
+        height: 200px;
+    }
+    .n_section_img{
+        height: 250px;
+    }
+     .s_sec_d_img{
+        width: 200px;
+        height: 200px;
+    }
+ }

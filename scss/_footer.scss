@@ -1,0 +1,64 @@
+.i_pie{
+    width: 100%;
+    grid-area: footer;
+    display: grid;
+    grid-template-areas: 
+    "info mapa"
+    "fin fin";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border-top: solid 2px #75849d;
+    color: $color-texto;
+    background-color: $color-fondo;
+    .i_info{
+        grid-area: info;
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-bottom: 5%;
+        .i_pie_f{
+            color: #2a38d2;
+            &:hover{
+                transform:translateY(-10px);
+                color: var(--color);
+            }
+        }
+        .i_pie_i{
+            color:#ea1e1e;
+            &:hover{
+                transform:translateY(-10px);
+                color: var(--color);
+            }
+        }
+        .i_pie_w{
+            color:#269436;
+            &:hover{
+                transform:translateY(-10px);
+                color: var(--color);
+            }
+        }
+    }
+    .i_mapa{
+        grid-area:mapa;
+        font-family:'Poppins', sans-serif;
+        font-size:28px;
+        font-weight:300;
+        .mapa{
+            height: 300px;
+            width: 300px;
+            margin-left: 5%;
+            overflow: hidden;
+        }
+    }
+    .i_final{
+        grid-area: fin;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        margin-top: 1%;
+        background-color: $color-fondo;
+    }
+}

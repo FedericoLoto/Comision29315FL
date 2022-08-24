@@ -1,0 +1,43 @@
+@media screen and (max-width:500px){
+.i_body{  
+    .nav_w{
+        height: 400px;
+    }
+    .i_prin{
+        .i_prin_h1{
+            font-size: 24px;
+        }
+    }
+    .i_sec_div{
+        width: 90%;
+        height: 150px;
+        padding: 1%;
+    }
+    .im_pie{
+        display: flex;
+        flex-direction: column;
+        .i_mapa{
+            .mapa{
+                justify-content:center;
+                height: 120px;
+                width: 120px;
+            }
+        } 
+    }
+    .n_main_p1{
+        font-size: 24px;
+    }
+    .n_main_p2{
+        font-size: 24px;
+        margin-bottom: 2%;
+    }
+    .n_section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        .n_section_p{
+            font-size: 20px;
+        }
+    }    
+}
+}

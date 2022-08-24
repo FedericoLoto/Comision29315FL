@@ -1,0 +1,104 @@
+.i_body{
+    background-color: $color-primario;    
+    .sec_tion_flota{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        width: 15%;
+        padding-top:1%;
+        padding-bottom: 1%;
+        text-decoration:none;
+        list-style: none;
+        text-align: center;
+        position:fixed ;
+        bottom: 5%;
+        right: 4%;
+        border: double 1px #75849d;
+        background-color: $color-fondo;
+        z-index: 10;
+            &:hover{
+                text-decoration:none;
+                list-style: none;
+                color: rgb(221, 234, 233);
+            }
+        }
+    .i_prin{
+        grid-area: main;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+
+        .i_prin_h1{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            line-height: 220%;
+            text-align: center;
+            font-size: 60px;
+            color: $color-texto;
+        }
+        .i_prin_sec{ 
+            width: 100%;
+
+            .i_imgc{
+                height: 600px;
+            }
+        }
+    }
+    .i_sec3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        .i_sec3_secsec{
+            height: 100%;
+            display: flex;
+            flex-direction: column ;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: $color-texto;
+            .i_sec3_secsec_div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 80%;
+                height: 180px;
+                padding: 3%;
+                background-color: $color-fondo;
+                margin-bottom: 5%;
+            }
+        }            
+        .i_aside{
+            grid-area: aside;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: 800;
+            color: $color-texto;
+            .i_aside_card{
+                background-color:$color-fondo;
+                .i_aside_img{
+                    width: 100%;
+                    height: 300px;
+                }
+                .i_aside_h3{
+                text-align: center; 
+                margin-bottom: 1%;
+                }
+                .i_aside_a{
+                    text-align: center;
+                    list-style: none;
+                    &:hover{
+                        background-color: $color-fondo;
+                        color: rgb(221, 234, 233);
+                    }
+                }
+            }
+        }
+    }
+}
