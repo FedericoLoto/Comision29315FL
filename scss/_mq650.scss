@@ -1,9 +1,32 @@
 @media screen and (max-width:650px){
-    .mm_mapa{
-        height: 180px;
-        width: 180px;
+.i_body{
+    .i_prin{
+        .i_prin_h1{
+            font-size: 30px;
+        }
+        .i_prin_sec{
+           .i_imgc{
+            height: 300px;
+           }
+        }
+    .i_sec3{
+        .i_sec3_secsec{
+            .i_sec3_secsec_div{
+                font-size: 24px;
+            }
+        }
+    }
+    }
+    .i_pie{
+        .i_mapa{
+            .mapa{
+                height: 160px;
+                width: 160px;
+            }
+        } 
     }
     .n_section_img{
         height: 200px;
     }
+}
 }
