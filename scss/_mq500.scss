@@ -13,11 +13,20 @@
            }
         } 
     }
+    .sec_tion{
+        .sec_tion_flota{
+            width: 20%;
+        }
+    }
     .i_pie{
+        .i_info{
+            .im_pie_p{
+            font-size: 20px;
+            }
+        }
         .i_mapa{
             .mapa{
                 height: 120px;
-                width: 120px;
             }
         } 
     }
@@ -36,22 +45,12 @@
         .n_section_p{
             font-size: 20px;
         }
-    } 
-    .i_pie{
-        .i_mapa{
-            width: 100%;
-            .mapa{
-                justify-content:center;
-                height: 120px;
-                width: 120px;
-            }
-        } 
-    }   
+    }  
 }
 
 .s_prin{
     .s_prin_h1{
-        font-size: 28px;
+        font-size: 30px;
     }
     .s_prin_p{
         font-size: 24px;
@@ -80,7 +79,7 @@
 .c_main{
     .c_main_div{
         .c_prin_h1{
-            font-size: 28px;
+            font-size:30px;
         }
         .c_form{
             div{
@@ -93,6 +92,13 @@
                     height: 150px;
                 }
             }
+        }
+    }
+}
+.e_prin{
+    .e_prin_d{
+        .e_prin_h1{
+            font-size: 30px;
         }
     }
 }

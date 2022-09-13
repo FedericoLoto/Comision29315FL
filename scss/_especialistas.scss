@@ -1,10 +1,9 @@
 .e_prin{
-    grid-area: e_main;
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    gap: 2%;
     .e_prin_d{
         display: flex;
         flex-direction: column;
@@ -22,7 +21,6 @@
             font-size: 30px;
             text-align: center;
             font-weight: 500;
-            margin-left: 2%;
             margin-bottom: 2%;
             margin-top: 2%;
             color: #2B2D42;
@@ -33,7 +31,6 @@
     .e_sec_d1{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         .e_sec_ol{
             font-family: 'Poppins', sans-serif;
             font-size: 20px;
@@ -44,7 +41,7 @@
         .e_prin_img{
             height: 400px;
             width: 400px;
-            margin-right: 6%;
+            margin-right: 5%;
         }
     }
     .e_imgmas{
@@ -70,15 +67,13 @@
         .e_table{
             width: 100%;
             background-color:#8D99AE;
-            border: 5px solid #75849d;
-            padding-right: 2%;
+            border: 6px solid #75849d;
+            padding-right: 4%;
             .e_sec3_tr{
                 font-family: 'Poppins', sans-serif;
                 position: relative;
-                left: 1%;
-                font-size: 18px;
+                font-size: 16px;
                 font-weight: 500;
-                margin-left: 1%;
                 color: #2B2D42;
                 .e_sec3_td{
                     font-weight: 700;
